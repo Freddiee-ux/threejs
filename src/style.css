@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root{font-family:Manrope,Arial,sans-serif;color:#f4f8ff;background:#07111f;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}
+html,body,#app{width:100%;height:100%;margin:0;overflow:hidden}
+body{background:radial-gradient(ellipse at 52% 44%,#11283b 0,#091624 42%,#060d18 100%)}
+canvas{display:block;width:100%;height:100%}
+.hud{position:absolute;z-index:2;top:clamp(20px,5vw,64px);left:clamp(20px,6vw,84px);width:min(440px,calc(100vw - 40px));padding:26px 28px 20px;border:1px solid rgba(174,211,238,.14);border-radius:18px;background:linear-gradient(145deg,rgba(11,25,39,.86),rgba(10,21,35,.68));box-shadow:0 18px 70px #02070c66;backdrop-filter:blur(18px)}
+.eyebrow{margin:0 0 13px;color:#70d9e8;font:500 10px 'DM Mono',monospace;letter-spacing:.17em}
+h1{margin:0;font-size:clamp(27px,4vw,40px);line-height:1.1;letter-spacing:-.055em}
+.description{max-width:355px;margin:12px 0 21px;color:#a6b6c7;font-size:13px;line-height:1.7}
+.legend{display:grid;gap:10px;color:#c6d4e1;font-size:11px}
+.legend span{display:flex;align-items:center;gap:9px}
+.dot{width:7px;height:7px;border-radius:50%;box-shadow:0 0 13px currentColor}.cyan{color:#55d6e8;background:currentColor}.violet{color:#ae86ff;background:currentColor}.amber{color:#ffc46a;background:currentColor}
+.footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:22px;padding-top:16px;border-top:1px solid #d6e8f015;color:#788b9d;font:10px 'DM Mono',monospace}
+button{border:1px solid #8ddde833;border-radius:8px;background:#153142;color:#ddf7ff;padding:8px 10px;font:500 10px Manrope,sans-serif;cursor:pointer}button:hover{background:#1c4255}button:focus-visible{outline:2px solid #70d9e8;outline-offset:3px}kbd{margin-left:5px;border:1px solid #9abccc44;border-radius:4px;padding:2px 5px;color:#a9c4d1;font:9px 'DM Mono',monospace}
+.hint{position:absolute;right:clamp(20px,5vw,68px);bottom:30px;color:#668196;font:9px 'DM Mono',monospace;letter-spacing:.16em}
+@media(max-width:560px){.hud{padding:21px 20px 16px}.description{font-size:12px}.footer{align-items:flex-start;flex-direction:column}.hint{font-size:8px}}

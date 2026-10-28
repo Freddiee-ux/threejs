@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07111f" />
+    <title>Mini 3D Scene — Praktikum Three.js</title>
+  </head>
+  <body>
+    <main id="app">
+      <section class="hud" aria-label="Informasi scene">
+        <p class="eyebrow">GRAFIKA KOMPUTER · PERTEMUAN 06</p>
+        <h1>Mini 3D Scene</h1>
+        <p class="description">Eksplorasi geometri, material, cahaya, dan transformasi dalam Three.js.</p>
+        <div class="legend"><span><i class="dot cyan"></i>Box · Lambert</span><span><i class="dot violet"></i>Sphere · Phong</span><span><i class="dot amber"></i>Cone · Normal</span></div>
+        <div class="footer"><span id="scene-info">Memuat scene…</span><button id="motion-toggle" type="button" aria-pressed="false">Jeda animasi <kbd>Space</kbd></button></div>
+      </section>
+      <div class="hint" aria-hidden="true">DRAG UNTUK MELIHAT SCENE</div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
