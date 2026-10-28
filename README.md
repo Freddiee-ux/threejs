@@ -4,10 +4,10 @@
 
 | Keterangan | Data |
 |---|---|
-| Nama | [Isi nama] |
-| NRP | [Isi NRP] |
+| Nama | Ferdian Ardra Hafizhan |
+| NRP | 5025241033 |
 | Mata kuliah | EF234504 — Grafika Komputer |
-| Praktikum | Pertemuan 6 — Introduction to Three.js |
+| Praktikum | Pertemuan 9 — Introduction to Three.js |
 | Judul | Mini 3D Scene dengan Three.js |
 
 ## Tujuan
